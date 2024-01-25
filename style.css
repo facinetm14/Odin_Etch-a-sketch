@@ -1,0 +1,13 @@
+.container {
+    border: 1px solid black;
+    background-color: darkgray;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.row {
+    display: flex;
+}
+.col {
+    border: 1px solid black;
+}
