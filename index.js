@@ -3,6 +3,8 @@ const CELL_NB = 16;
 const body = document.querySelector('body');
 const container = document.createElement('div');
 const configBtn = document.createElement('button');
+const footer = document.createElement('footer');
+footer.textContent = 'copyright © The odin project - by facinetm14';
 
 configBtn.textContent = 'Configuration';
 configBtn.classList.add('btn-config');
@@ -34,6 +36,7 @@ const buildGrid = (nbColums) => {
     }
     container.classList.add('container');
     body.appendChild(container);
+    body.appendChild(footer);
     const cells = document.querySelectorAll(".col");
     cells.forEach((cell) => cell.addEventListener('mouseenter', changeBackground));
 }
