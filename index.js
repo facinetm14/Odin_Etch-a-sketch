@@ -3,7 +3,8 @@ const CELL_NB = 16;
 const body = document.querySelector('body');
 const container = document.createElement('div');
 const configBtn = document.createElement('button');
-const footer = document.createElement('footer');
+const footer = document.createElement('div');
+footer.classList.add('footer');
 footer.textContent = 'copyright © The odin project - by facinetm14';
 
 configBtn.textContent = 'Configuration';
