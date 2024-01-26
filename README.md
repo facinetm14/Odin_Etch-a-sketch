@@ -1,6 +1,8 @@
 # Odin_Etch-a-sketch
 This project is from &nbsp;<a href="https://www.theodinproject.com/">TheOdinProject</a>&nbsp;. It consists of creating a weboage with interactive grid of N X N squares. By default 16 x 16.
 
+## Preview
+
 ## Technos
 <ul>
   <li>Html</li>
